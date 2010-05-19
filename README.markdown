@@ -1,7 +1,7 @@
-CodeIgniter internationalization library
-========================================
+CodeIgniter internationalization (i18n) library
+===============================================
 
-Originally by Jérôme Jaglale, http://maestric.com/doc/php/codeigniter_i18n)
+Originally by [Jérôme Jaglale](http://maestric.com/doc/php/codeigniter_i18n).
 
 Fork by MetaStudio has the following features:
 
@@ -10,7 +10,7 @@ Fork by MetaStudio has the following features:
 Documentation
 -------------
 
-The original documentation is maintained by creator at http://maestric.com/doc/php/codeigniter_i18n
+The original documentation is maintained by creator at [http://maestric.com/doc/php/codeigniter_i18n](http://maestric.com/doc/php/codeigniter_i18n).
 
 Use hostnames
 -------------
@@ -18,8 +18,10 @@ Use hostnames
 1. Add into your system/application/config/config.php lines identifying base URL for your
 translation sites:
 
+<code>
 	$config['base_url_ru'] = "http://metastudio.ru/";
 	$config['base_url_en'] = "http://metastudiohq.com/";
+</code>
 
 2. Enable the host mode in MY_Language.php:
 
