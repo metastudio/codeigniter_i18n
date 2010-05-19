@@ -16,10 +16,10 @@ Use hostnames
 -------------
 
 1. Add into your system/application/config/config.php lines identifying base URL for your
-translation sites: <code>
+translation sites:
+
 	$config['base_url_ru'] = "http://metastudio.ru/";
 	$config['base_url_en'] = "http://metastudiohq.com/";
-</code>
 
 2. Enable the host mode in MY_Language.php:
 
