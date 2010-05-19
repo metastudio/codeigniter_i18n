@@ -93,10 +93,9 @@ class MY_Language extends CI_Language {
 	function lang()
 	{
 		global $CFG;		
-		$language = $CFG->item('language');
 		
-		$lang = array_search($language, $this->languages);
-		if ($lang)
+		$language = $CFG->item('language');
+		if ($lang = array_search($language, $this->languages))
 		{
 			return $lang;
 		}
